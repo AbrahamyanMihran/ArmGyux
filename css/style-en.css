@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+#link2{
+    display: none;
+}
+#link1{
+    display: none;
+}
+/* ////////////////////////////////////////home//////////////////////////////////// */
+.home-img{
+    width: 100%;
+    padding-top: 30px;
+}
+.home-img > img{
+    width: 100%;
+}
+
+/*///////////////////////////////////////project////////////////////////////////////  */
+.dekoracia1{
+    padding-top: 10vh;
+    width: 40%;
+    margin: auto;
+}
+.dekoracia1 > img{
+    width: 100%;
+}
+.projects-big{
+    text-align: center;
+    padding: 70px 0;
+}
+.projects-big > h1{
+    font-size: 30px;
+    font-family: arial;
+}
+.projects{
+    padding: 100px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+}
+.prj1{
+    width: 20%;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    color: black;
+    box-shadow: 4px 4px 4px rgb(102, 102, 102);
+    border: 1px grey solid;
+}
+.prj1-img{
+    width: 100%;
+    
+}
+.prj1-img > img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.prj1-text{
+    padding: 5px 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+.prj1-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}
+.prj-hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 22, 0.562);
+    border-radius: 15px;
+    opacity: 0;
+    transition: 0.7s;
+    padding: 3px;
+}
+.prj-hover:hover{
+    opacity: 1;
+}
+.prj-hover > a > button{
+    padding: 15px 18px;
+    background-color: #FEC129;
+    border-radius: 15px;
+    border:none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+.prj-hover > p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.prj-hover > p > span{
+    color: #FDE811;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+/* ////////////////////////////////////////////footer///////////////////////////////////// */
+.dekoracia2{
+    padding-top: 10vh;
+    width: 40%;
+    margin: auto;
+    transform: rotate(180deg);
+}
+.dekoracia2 > img{
+    width: 100%;
+}
+/* //////////////////////////////////respoosive/////////////////////////////// */
+@media only screen and (max-width: 1010px) {
+    .dekoracia2{
+        width: 50%;
+    }
+    .dekoracia1{
+        width: 50%;
+    }
+    .home-img{
+        padding-top: 45px;
+    }
+}
+@media only screen and (max-width: 940px){
+    .prj-hover > p {
+        display: none;
+
+    } 
+    .prj-hover > a > button{
+        padding: 15px 15px;
+    }
+}
+@media only screen and (max-width: 770px){
+    .prj1{
+        width: 30%;
+    }
+    
+    .prj1-text{
+        font-family: arial;
+        font-size: 14px;
+    }
+    .home-img{
+        padding-top: 70px;
+    }
+}
+@media only screen and (max-width: 640px){
+    .home-img{
+        padding-top: 100px;
+    }
+    .prj1{
+        width: 50%;
+    }
+    .dekoracia2{
+        width: 60%;
+    }
+    .dekoracia1{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .prj1-text > p{
+        font-size: 14px;
+    }
+    .prj1{
+        width: 70%;
+    }
+    
+    .dekoracia2{
+        width: 70%;
+    }
+    .dekoracia1{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .prj1{
+        width: 80%;
+    }
+    .prj1-text > p{
+        font-size: 13px;
+    }
+}
+
+
+
+

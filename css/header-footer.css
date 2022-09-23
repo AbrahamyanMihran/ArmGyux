@@ -1,0 +1,360 @@
+/* ///////////////////////////////////header/////////////////////////////// */
+header{
+    backdrop-filter: blur(50px);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    background-color:#ffffff;
+    box-shadow: 7px 7px 7px rgb(189, 189, 189);
+    z-index: 10;
+    top: 0;
+}
+header .logos-div{
+    width: 6%;
+}
+header .logos-div > img{
+    width: 100%;
+}
+
+.header{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(218, 218, 218) ;
+}
+.header .logos-div{
+    width: 5%;
+}
+.logos-div > a > img{
+    width: 100%;
+}
+header .links > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    font-size: 20px;
+    padding: 0px 10px;
+    transition: 0.4s;
+}
+.header .links > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+    font-size: 19px;
+    padding: 0px 10px;
+    transition: 0.4s;
+}
+
+.header .donate-btn{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    background-color: #FEC129;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+.language a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.language2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc400;
+    border-radius: 3px;
+    padding: 5px;
+}
+/* //////////////////////////////////////////////////footer///////////////////////////////////////////////// */
+footer{
+    background-color: #1F1E1C;
+    height: 49vh;
+    padding-top: 50px;
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.soc{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.soc a{
+    color: #7E7C7D;
+    font-size: 35px;
+    margin-left: 15px;
+    transition: 0.4s;
+}
+.soc a:hover{
+    color: #FFDD00;
+}
+
+.footer-h4{
+    color: #7E7C7D;
+    text-transform: uppercase;
+}
+.footer-links{
+    line-height: 25px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+.footer-links a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.footer-links a:hover{
+    color: #FFDD00;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+    color: #7E7C7D;
+}
+.footer-bottom p a{
+    color: #7E7C7D;
+}
+.footer-bottom p a:hover{
+    color: white;
+}
+/* //////////////////////////////////////////////////responsive//////////////////////////////////////////////////// */
+@media only screen and (max-width: 1010px) {
+    header{
+        padding: 15px 25px;
+    }
+    .language a{
+        font-size: 15px;
+    }
+    .language2{
+        padding: 2px 4px;
+    }
+    footer{
+        background-color: #1F1E1C;
+        height: 45vh;
+    }
+}
+@media only screen and (max-width: 770px){
+    header{
+        padding: 22px 25px;
+    }
+    header > .logos-div{
+        width: 8%;
+    } 
+    header > .links a{
+        font-size: 18px;
+    }
+    footer{
+        background-color: #1F1E1C;
+        height: 40vh;
+    }
+    .footer-links{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 640px){
+    header{
+        padding: 15px 30px;
+        display: block;
+        text-align: center;
+        height: 15vh;
+        padding: 10px 10px;
+    }
+    .header{
+        padding: 15px 30px;
+    }
+    header > .logos-div{
+        width: 10%;
+        margin: auto;
+    }
+    header > .links a{
+        font-size: 15px;
+    }
+    .header > .logos-div{
+        width: 9%;
+    }
+    .header > .links a{
+        font-size: 15px;
+    }
+    .links{
+        display: inline-block;
+    }
+    .language{
+        display: inline-block;
+    }
+    .language a{
+        font-size: 14px;
+    }
+    .language2{
+        padding: 2px 3px;
+    }
+    
+    .soc > h2{
+        font-size: 22px;
+    }
+    .soc a{
+        font-size: 30px;
+    }
+    .footer-links a{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 500px){
+    header{
+        height: 14vh;
+    }
+    .language2{
+        padding: 1px 2px;
+    }
+    header > .logos-div{
+        width: 12%;
+    }
+    header > .links a{
+        font-size: 14px;
+    }
+    .header > .links a{
+        font-size: 13px;
+    }
+    .header > .logos-div{
+        width: 10%;
+    }
+    .header{
+        height: 13vh;
+    }
+
+    .footer-links{
+        width: 75%;
+    }
+    .soc{
+        width: 70%;
+    }
+    .footer-links a{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    header{
+        height: 14vh;
+    }
+    .language2{
+        padding: 1px 2px;
+    }
+    .language2 > a{
+        font-size: 11px;
+    }
+    header > .logos-div{
+        width: 12%;
+    }
+    header > .links a{
+        font-size: 12px;
+    }
+    .header > .links a{
+        font-size: 12px;
+    }
+    .header > .logos-div{
+        width: 11%;
+    }
+    .header{
+        height: 13vh;
+    } 
+    .soc{
+        width: 80%;
+    }
+    .soc > h2{
+        font-size: 20px;
+    }
+    .footer-links{
+        width: 80%;
+    }
+    .footer-links a{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px){
+    header{
+        height: 14vh;
+    }
+    .language2{
+        padding: 1px 2px;
+    }
+    .language2 > a{
+        font-size: 11px;
+    }
+    header > .logos-div{
+        width: 12%;
+    }
+    header > .links a{
+        font-size: 12px;
+    }
+    .header > .links a{
+        font-size: 12px;
+    }
+    .header > .logos-div{
+        width: 11%;
+    }
+    .header{
+        height: 13vh;
+    } 
+    .prj1{
+        width: 80%;
+    }
+    .prj1-text > p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+
+
+#link2{
+    display: none;
+}
+
+#link3{
+    display: none;
+}
+
+/* ////////////////////////////////////////home//////////////////////////////////// */
+.home-img{
+    width: 100%;
+}
+.home-img > img{
+    width: 100%;
+}
+/* ///////////////////////////////////////about project//////////////////////////// */
+.dekoracia1{
+    padding-top: 10vh;
+    width: 40%;
+    margin: auto;
+}
+.dekoracia1 > img{
+    width: 100%;
+}
+.about-project{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 20px 0;
+}
+.about-project > div{
+    width: 70%;
+}
+.about-project > h1{
+    color: #7E24FF;
+}
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7E24FF;
+}
+.about-project > div > p{
+    line-height: 25px;
+}
+
+details {
+    text-align: center;
+    padding-bottom: 30px;
+}
+details > summary {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    width: 110px;
+    background-color: #FFC300;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: auto;
+  }
+  
+  details > img {
+    width: 50%;
+    margin: 60px 0;
+  }
+
+.dekoracia2{
+    transform: rotate(180deg);
+    padding: 10vh 0 20vh 0;
+    width: 40%;
+    margin: auto;
+}
+.dekoracia2 > img{
+    width: 100%;
+}
+
+.support{
+    text-align: center;
+}
+.support > a > button{
+    width: 50%;
+    background-color: #FFC300;
+    border: none;
+    padding: 15px 0;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.project-scale{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.scale{
+    width: 20%;
+    transition: 1s;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+/* //////////////////////////////////respoosive/////////////////////////////// */
+@media only screen and (max-width: 1010px) {
+    .dekoracia2{
+        width: 50%;
+    }
+    .dekoracia1{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 770px){
+    .home-img{
+        padding-top: 100px;
+    }
+    .support > a > button{
+        font-size: 19px;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .dekoracia2{
+        width: 60%;
+    }
+    .dekoracia1{
+        width: 60%;
+    }
+    .project-scale{
+        flex-direction: column;
+        align-items: center;
+    }
+    .scale{
+        width: 50%;
+        margin: 20px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+    .support > a > button{
+        width: 70%;
+    }
+    .dekoracia2{
+        width: 70%;
+    }
+    .dekoracia1{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 420px){
+    .contact-text > p{
+        font-size: 18px;
+    }
+    .contact-text > h1{
+        font-size: 27px;
+    }
+    .contact > h1{
+        font-size: 27px;
+    }
+    .scale{
+        width: 60%;
+    }  
+}
+

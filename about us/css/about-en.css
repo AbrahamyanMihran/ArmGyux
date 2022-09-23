@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+/* ///////////////////////////////////header/////////////////////////////// */
+
+#link2{
+    display: none;
+}
+
+#link1{
+    display: none;
+}
+/* //////////////////////////////////////////home//////////////////////////////////////// */
+.home{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.home-img{
+    width: 100%;
+}
+.home-img > img{
+    width: 100%;
+}
+.dekoracia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 80px 0 50px 0;
+    width: 10%;
+}
+.dekoracia > img{
+    width: 100%;
+}
+.home-text{
+    text-align: center;
+    width: 80%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 50px 0 100px 0;
+}
+
+.home-text > p{
+    text-align: justify;
+    line-height: 28px;
+    padding-left: 20px;
+    width: 100%;
+}
+.npatak{
+    font-weight: bold;
+}
+/* /////////////////////////////////////////////timakic//////////////////////////////////// */
+.timakicner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+
+
+
+.timakic1{
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px;
+}
+.timakic1-img{
+    width: 100%;
+}
+.timakic1-img > img{
+    width: 100%;
+}
+.timakic1-text{
+    padding: 0px 5px;
+}
+.timakic1-text > h2{
+    margin: 5px 0;
+    color: #f7b100;
+}
+.timakic1-text > p{
+    text-align: justify;
+}
+
+
+
+.timakic2{
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px;
+}
+.timakic2-img{
+    width: 100%;
+}
+.timakic2-img > img{
+    width: 100%;
+}
+.timakic2-text{
+    padding: 0px 5px;
+}
+.timakic2-text > h2{
+    margin: 5px 0;
+    color: #f7b100;
+}
+.timakic2-text > p{
+    text-align: justify;
+}
+
+
+
+
+
+
+.timakic3{
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px;
+}
+.timakic3-img{
+    width: 100%;
+}
+.timakic3-img > img{
+    width: 100%;
+}
+.timakic3-text{
+    padding: 0px 5px;
+}
+.timakic3-text > h2{
+    margin: 5px 0;
+    color: #f7b100;
+}
+.timakic3-text > p{
+    text-align: justify;
+}
+
+
+
+.timakic4{
+    display: inline-block;
+    position: relative;
+    width: 180px;
+    text-align: center;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px;
+}
+.timakic4-img{
+    width: 100%;
+}
+.timakic4-img > img{
+    width: 100%;
+}
+.timakic4-text{
+    padding: 0px 5px;
+}
+.timakic4-text > h2{
+    margin: 5px 0;
+    color: #f7b100;
+}
+.timakic4-text > p{
+    text-align: justify;
+}
+
+
+.tim-link{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.425);
+    opacity: 0;
+    transition: 0.4s;
+}
+.tim-link:hover{
+    opacity: 1;
+}
+
+.tim-link i{
+    color: white;
+    background-color: none;
+    font-size: 25px;
+    transition: 0.4s;
+}
+.tim-link i:hover{
+    color:#FDE811;
+}
+
+.dekoracia2{
+    transform: rotate(180deg);
+    margin: auto;
+    padding: 90px 0 100px 0;
+    width: 10%;
+}
+.dekoracia2 > img{
+    width: 100%;
+}
+/* ////////////////////////////////////////responsive/////////////////////////////////// */
+@media only screen and (max-width: 1010px) {
+    .dekoracia{
+        width: 15%;
+    }
+    .dekoracia2{
+        width: 15%;
+    } 
+}
+@media only screen and (max-width: 770px){
+    .dekoracia{
+        width: 17%;
+    }
+    .dekoracia2{
+        width: 17%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .home-text{
+        width: 85%;
+    }
+    .dekoracia{
+        width: 20%;
+    }
+    .dekoracia2{
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .dekoracia{
+        width: 23%;
+    }
+    .dekoracia2{
+        width: 23%;
+    }
+    .timakic1{
+        margin: 20px;
+        width: 150px;
+        display: block;
+    }
+    .timakic2{
+        margin: 20px;
+        width: 150px;
+        display: block;
+    }
+    .timakic3{
+        margin: 20px;
+        width: 150px;
+        display: block;
+    }
+    .timakic4{
+        margin: 20px;
+        width: 150px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 420px){
+    .contact-text > p{
+        font-size: 18px;
+    }
+    .contact-text > h1{
+        font-size: 27px;
+    }
+    .contact > h1{
+        font-size: 27px;
+    }
+    .dekoracia{
+        width: 25%;
+    }
+    .dekoracia2{
+        width: 25%;
+    }
+    
+}
+@media only screen and (max-width: 375px){
+    .dekoracia{
+        width: 27%;
+    }
+    .dekoracia2{
+        width: 27%;
+    }
+}

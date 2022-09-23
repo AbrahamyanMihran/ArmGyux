@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+
+
+#link2{
+    display: none;
+}
+
+#link1{
+    display: none;
+}
+/* //////////////////////////////////////home//////////////////////////////////// */
+.contact{
+    padding: 110px 0;
+    text-align: center;
+}
+.contact > h1{
+    color: #FF1E1E;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-small{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+.contact-text{
+    padding: 0px 40px;
+}
+.contact-text > p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FEC129;
+}
+.contact-text > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF1E1E;
+}
+
+.contact-form{
+    background-color: #C8D2FF;
+    padding: 5px 30px 15px 30px;
+    margin: 0 40px;
+    border-radius: 15px;
+    box-shadow:  #C8D2FF 5px 5px 5px;
+}
+.contact-form > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.anun{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    border: grey 1px solid;
+    padding-left: 10px;
+}
+.mail{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    border: grey 1px solid;
+    padding-left: 10px;
+}
+.text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    border: grey 1px solid;
+    padding-left: 10px;
+}
+.send{
+    width: 300px;
+    height: 50px;
+    background-color: #FFC300;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+/* /////////////////////////////////////////responsive////////////////////////////////// */
+@media only screen and (max-width: 816px){
+    .contact-text{
+        padding-bottom: 50px;
+    }
+
+}
+@media only screen and (max-width: 420px){
+    .contact-text > p{
+        font-size: 18px;
+    }
+    .contact-text > h1{
+        font-size: 27px;
+    }
+    .contact > h1{
+        font-size: 27px;
+    }
+    .anun{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    border: grey 1px solid;
+    padding-left: 10px;
+    }
+    .mail{
+        width: 250px;
+        height: 40px;
+        border-radius: 15px;
+        outline: none;
+        font-size: 16px;
+        border: grey 1px solid;
+        padding-left: 10px;
+    }
+    .text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 250px;
+        height: 200px;
+        border-radius: 15px;
+        outline: none;
+        font-size: 16px;
+        border: grey 1px solid;
+        padding-left: 10px;
+    }
+    .send{
+        width: 250px;
+        height: 50px;
+        background-color: #FFC300;
+        border: none;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        cursor: pointer;
+    }
+    .contact-form > h1{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .contact-text > p{
+        font-size: 15px;
+    }
+    .contact-text > h1{
+        font-size: 25px;
+    }
+    .contact > h1{
+        font-size: 25px;
+    }
+
+    .anun{
+        width: 230px;
+        height: 40px;
+        border-radius: 15px;
+        outline: none;
+        font-size: 16px;
+        border: grey 1px solid;
+        padding-left: 10px;
+    }
+    .mail{
+        width: 230px;
+        height: 40px;
+        border-radius: 15px;
+        outline: none;
+        font-size: 16px;
+        border: grey 1px solid;
+        padding-left: 10px;
+    }
+    .text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 230px;
+        height: 200px;
+        border-radius: 15px;
+        outline: none;
+        font-size: 16px;
+        border: grey 1px solid;
+        padding-left: 10px;
+    }
+    .send{
+        width: 230px;
+        height: 50px;
+        background-color: #FFC300;
+        border: none;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        cursor: pointer;
+    }
+    .contact-form > h1{
+        font-size: 26px;
+    }
+    .contact-form{
+        padding: 4px 20px 10px 20px;
+        
+    }
+}
