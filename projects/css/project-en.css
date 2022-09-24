@@ -56,6 +56,30 @@ span{
 .about-project > div > p{
     line-height: 25px;
 }
+
+details {
+    text-align: center;
+    padding-bottom: 30px;
+}
+details > summary {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    width: 110px;
+    background-color: #FFC300;
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    text-transform: uppercase;
+  }
+  
+  details > img {
+    width: 50%;
+    margin: 60px 0;
+  }
 .dekoracia2{
     transform: rotate(180deg);
     padding: 10vh 0 20vh 0;
