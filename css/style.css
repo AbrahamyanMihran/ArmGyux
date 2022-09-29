@@ -45,6 +45,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     text-align: justify;
+    flex-wrap: wrap;
 }
 .prj1{
     width: 20%;
@@ -138,6 +139,9 @@ body{
     .home-img{
         padding-top: 45px;
     }
+    .prj1{
+        width: 25%;
+    }
 }
 @media only screen and (max-width: 940px){
     .prj-hover > p {
@@ -165,8 +169,13 @@ body{
     .home-img{
         padding-top: 100px;
     }
+    .projects{
+        flex-direction: column;
+        align-items: center;
+    }
     .prj1{
         width: 50%;
+        margin-bottom: 30px;
     }
     .dekoracia2{
         width: 60%;

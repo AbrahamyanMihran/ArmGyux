@@ -75,10 +75,10 @@ details > summary {
     text-transform: uppercase;
   }
   
-  details > img {
-    width: 50%;
+details > img {
+    width: 70%;
     margin: 60px 0;
-  }
+}
 .dekoracia2{
     transform: rotate(180deg);
     padding: 10vh 0 20vh 0;
@@ -164,7 +164,7 @@ details > summary {
         width: 70%;
     }
     details > img {
-        width: 60%;
+        width: 80%;
         margin: 60px 0;
     }
 }
