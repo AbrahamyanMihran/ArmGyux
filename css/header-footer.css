@@ -81,8 +81,8 @@ header .links > a{
 /* //////////////////////////////////////////////////footer///////////////////////////////////////////////// */
 footer{
     background-color: #1F1E1C;
-    height: 49vh;
     padding-top: 50px;
+    
 }
 .footer-div{
     display: flex;

@@ -89,6 +89,7 @@ body{
     font-size: 16px;
     border: grey 1px solid;
     padding-left: 10px;
+    resize: none;
 }
 .send{
     width: 300px;
@@ -200,7 +201,7 @@ body{
         justify-content: flex-start;
         align-items: flex-start;
         width: 230px;
-        height: 200px;
+        height: 5000px;
         border-radius: 15px;
         outline: none;
         font-size: 16px;
